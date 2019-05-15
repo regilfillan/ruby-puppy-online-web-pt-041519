@@ -9,7 +9,8 @@ class Dog
   end
   
   def self.all 
-    puts @@all.to_s
+    puts @@all.map do |dog|
+      
   end
   
 end
